@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# minify filename.json
+
+lines = IO.readlines(ARGV[0])
+
+
+def remove_comments lines
+  lines.map {|line| line.gsub(/\/\/.*$/, '')}
+end
+
+def strip_whitespace lines
+  lines.map(&:strip)
+end
+
+def minify lines
+  strip_whitespace(remove_comments(lines)).join ''
+end
+
+
+puts minify(lines)
