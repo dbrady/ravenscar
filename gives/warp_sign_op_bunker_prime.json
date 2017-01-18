@@ -1,0 +1,9 @@
+give @p sign 1 0 {
+    BlockEntityTag: {
+        Text1: "{\"text\":\"Warp To\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"teleport @p 1 1 1 0\"}}",
+        Text3: "{\"text\":\"Op Bunker Prime\",\"color\":\"dark_red\"}"
+    },
+    display: {
+        Name: "Warp Sign: Op Bunker Prime"
+    }
+}
