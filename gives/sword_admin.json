@@ -1,0 +1,43 @@
+/give @p diamond_sword 1 0 {
+    display: {
+        Name: "Admin Sword",
+        Lore: [
+            "Meddle not in the affairs of Admins",
+            "This sword is limned with delicate wisps of flame"
+        ]
+    },
+    AttributeModifiers: [
+        {
+            AttributeName: "generic.attackDamage",
+            Name: "generic.attackDamage",
+            Amount: 20,
+            Operation: 0,
+            UUIDMost: 4098,
+            UUIDLeast: 481198
+        }
+    ],
+    ench: [
+        {
+            id: 16,
+            lvl: 5
+        },
+        {
+            id: 17,
+            lvl: 5
+        },
+        {
+            id: 18,
+            lvl: 5
+        },
+        {
+            id: 20,
+            lvl: 2
+        },
+        {
+            id: 21,
+            lvl: 3
+        }
+    ],
+    HideFlags: 2,
+    Unbreakable: 1
+}
