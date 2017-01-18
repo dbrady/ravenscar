@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+
+def usage
+  str = <<USAGE
+make-warp-sign "<Name of Sign>" <x> <y> <z> [<y-rot> [<x-rot>]]
+
+y-rot:   0.0 = Facing South
+        90.0 = Facing West
+       180.0 = Facing North
+       270.0 = Facing East
+
+x-rot:   0.0 = Looking Straight Ahead
+       -90.0 = Looking Straight Up
+        90.0 = Looking Straight Down
+
+Creates a give command to create a warp sign
+USAGE
+end
+
+if ARGV.size < 4 || ARGV.size > 6
+  puts usage
+  exit -1
+end
+
+require 'erb'
+
+text = File.read(File.expand_path(File.join(File.dirname(__FILE__), "../gives/warp_sign_template.json.erb")))
+template = ERB.new text
+name, x, y, z, yrot, xrot = *ARGV
+
+yrot = " " + yrot if yrot
+xrot = " " + xrot if xrot
+
+puts template.result(binding)
