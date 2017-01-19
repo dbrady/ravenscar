@@ -64,6 +64,50 @@ summon Villager -208.5 64 -137.5 {
           {
             buy: {
               id: "iron_nugget",
+              Count: 9
+            },
+            maxUses: 9999999,
+            sell: {
+              id: "iron_ingot",
+              Count: 1
+            }
+          },
+          {
+            buy: {
+              id: "iron_ingot",
+              Count: 1
+            },
+            maxUses: 9999999,
+            sell: {
+              id: "iron_nugget",
+              Count: 9
+            }
+          },
+          {
+            buy: {
+              id: "gold_nugget",
+              Count: 9
+            },
+            maxUses: 9999999,
+            sell: {
+              id: "gold_ingot",
+              Count: 1
+            }
+          },
+          {
+            buy: {
+              id: "gold_ingot",
+              Count: 1
+            },
+            maxUses: 9999999,
+            sell: {
+              id: "gold_nugget",
+              Count: 9
+            }
+          },
+          {
+            buy: {
+              id: "iron_nugget",
               Count: 1
             },
             maxUses: 9999999,
@@ -72,7 +116,7 @@ summon Villager -208.5 64 -137.5 {
               Count: 1
             }
           },
-          {
+         {
             buy: {
               id: "gold_nugget",
               Count: 1
