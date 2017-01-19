@@ -36,7 +36,7 @@ summon Villager -208.5 64 -137.5 {
             maxUses: 9999999,
             sell: {
               id: "iron_nugget",
-              Count: 9
+              Count: 10
             }
           },
           {
@@ -58,7 +58,7 @@ summon Villager -208.5 64 -137.5 {
             maxUses: 9999999,
             sell: {
               id: "iron_ingot",
-              Count: 9
+              Count: 10
             }
           },
           {
