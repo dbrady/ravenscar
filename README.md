@@ -75,3 +75,33 @@ backup.
 * `/bin` scripts and programs for manipulating and creating data
 * `/gives` scripts and commands to give custom items (warp signs, etc)
 * `/summons` json files for summoning specific entities
+
+# Notable World Resources
+
+<font color="red">Be sure to put locations ON SOLID GROUND so people in survival
+mode don't plummet if you teleport them there!</font>
+
+## Villages
+
+| Name          | Location          | Smithy? | Church? | Library? | Notes                                                                                                                 |
+|---------------+-------------------+---------+---------+----------+-----------------------------------------------------------------------------------------------------------------------|
+|               | -1354.5 77 1588.5 | No      | No      | Yes      | Cleric and Cartographer seen                                                                                          |
+|               | -1707.5 68 780.5  | No      | No      | Yes      | Cleric and Cartographer seen                                                                                          |
+| Lark's Hollow | -251.5 73 36.5    | Yes     | No      | No       | Many Butchers. Toolsmith, 2 Fletchers seen                                                                            |
+| Ravenscar     | -170.5 72 -171.5  | Yes     | Yes     | No       | Town's been largely killed off. 2 Armorers left, plus a cartographer, who I have locked in his house for safekeeping. |
+
+
+
+## Notable Formations
+
+_When possible, include yrot and xrot location values so teleporting people are
+looking at the resource. If something looks cool, favor a location showing the
+cool vista over teleporting directly inside the structure._
+
+| Location                  | Type                                | Description / Notes                                                                                                          |
+|---------------------------+-------------------------------------+------------------------------------------------------------------------------------------------------------------------------|
+| -1638.5 67 559.5 -190 -30 | Arch                                | Mountain outcropping on plains with an arch/cave near the top. Village at -1707 68 780 just visible from inside the arch.    |
+| -1645.5 77 480.5 -20 -30  | Building Site / Defensible Valley   | Just north of the arch/cave mountain, there are a few other outcroppings that could be closed up to make a fortress village. |
+| -737.5 126 351.5 145 20   | Erosion Anomaly / Two Ground Levels | Whole range of anomalous mountains, here's a vista of a large flat slice of grassland over another chunk of grassland.       |
+| -469.5 64 129.5 90 20     | Ravine                              | Small (~100m) ravine open to the surface.                                                                                    |
+|                           |                                     |                                                                                                                              |
